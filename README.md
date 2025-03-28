@@ -47,9 +47,11 @@ From handling memory-intensive datasets to providing interactive dashboards and 
 
 ## 📸 Screenshots
 
-![FireShot Capture 001 - Mortality Data Analysis - localhost.png](attachment:2c35f29b-2a62-47f3-99d8-8641a2ee4f82:FireShot_Capture_001_-_Mortality_Data_Analysis_-_localhost.png)
-![FireShot Capture 002 - Mortality Data Analysis - localhost.png](attachment:00e13068-0899-4f6c-91d6-f9457f2a7663:FireShot_Capture_002_-_Mortality_Data_Analysis_-_localhost.png)
-![FireShot Capture 003 - Mortality Data Analysis - localhost.png](attachment:31a85022-d835-40ea-9e55-307e48328880:FireShot_Capture_003_-_Mortality_Data_Analysis_-_localhost.png)
+![FireShot Capture 010 - Mortality Data Analysis - localhost](https://github.com/user-attachments/assets/985b9439-67b4-45a1-aacd-a6dd1b15be00)
+![FireShot Capture 009 - Mortality Data Analysis - localhost](https://github.com/user-attachments/assets/d9a55554-d6ba-4137-acfd-13ea3a0707d9)
+![FireShot Capture 008 - Mortality Data Analysis - localhost](https://github.com/user-attachments/assets/e4baf544-850a-4a3e-a874-8fc74364b7e7)
+![FireShot Capture 007 - Mortality Data Analysis - localhost](https://github.com/user-attachments/assets/90856fb5-fb31-4f54-b931-7ea91fb6723d)
+![FireShot Capture 006 - Mortality Data Analysis - localhost](https://github.com/user-attachments/assets/f82ed22f-1800-446c-a988-7cdff884eea8)
 
 **1. Main Dashboard Overview**
 ![Dashboard Overview](placeholder-dashboard-overview.png)
