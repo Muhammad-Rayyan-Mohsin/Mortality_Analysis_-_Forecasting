@@ -168,30 +168,9 @@ This system has successfully:
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/your-feature-name`).
-3.  Make your changes and commit them (`git commit -m 'Add some feature'`).
-4.  Push to the branch (`git push origin feature/your-feature-name`).
-5.  Open a Pull Request.
-
-Please ensure your code adheres to standard Python practices and includes relevant documentation or tests.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ##📧 Contact
 
-Your Name / Project Lead - your.email@example.com
-
-Project Link: [https://github.com/your-username/mortality-data-analysis](https://github.com/your-username/mortality-data-analysis)
+Your Name / Project Lead - mo.rayyan2002@gmail.com
 
 ---
