@@ -47,7 +47,9 @@ From handling memory-intensive datasets to providing interactive dashboards and 
 
 ## 📸 Screenshots
 
-*(Include compelling screenshots of your application here)*
+![FireShot Capture 001 - Mortality Data Analysis - localhost.png](attachment:2c35f29b-2a62-47f3-99d8-8641a2ee4f82:FireShot_Capture_001_-_Mortality_Data_Analysis_-_localhost.png)
+![FireShot Capture 002 - Mortality Data Analysis - localhost.png](attachment:00e13068-0899-4f6c-91d6-f9457f2a7663:FireShot_Capture_002_-_Mortality_Data_Analysis_-_localhost.png)
+![FireShot Capture 003 - Mortality Data Analysis - localhost.png](attachment:31a85022-d835-40ea-9e55-307e48328880:FireShot_Capture_003_-_Mortality_Data_Analysis_-_localhost.png)
 
 **1. Main Dashboard Overview**
 ![Dashboard Overview](placeholder-dashboard-overview.png)
