@@ -1,52 +1,52 @@
-Here’s a detailed and intuitive README.md file for your project:
+# Death Relevant
 
-Install the required dependencies:
+## Overview
+Death Relevant is an interactive dashboard built with Streamlit for analyzing and visualizing U.S. mortality data. It includes monthly, state-level, and forecasted death trends, leveraging CDC data and time series models.
 
-Ensure the following data files are available in the analysis_results folder:
+## Features
+- Monthly mortality trends with year-over-year comparisons  
+- State-level analysis for historical data (1985–2004)  
+- SARIMAX-based forecasting model with confidence intervals  
+- Interactive charts using Plotly and extensive filtering options  
 
-monthly_deaths.csv: Contains monthly national mortality data.
-state_deaths_1985_2004.csv: Contains state-level mortality data (optional for state analysis).
-Usage
-Run the Streamlit app:
+## Installation
+1. Clone this repository or download the source code.  
+2. Navigate to the project directory.  
+3. Install the required Python packages:  
+   ```
+   pip install -r requirements.txt
+   ```
+4. Ensure the necessary CSV files are placed in the `analysis_results` folder.
 
-Open the app in your browser (usually at http://localhost:8501).
+## Usage
+1. Open a terminal in the project directory.  
+2. Run the Streamlit app:  
+   ```
+   streamlit run mortality_streamlit.py
+   ```
+3. Access the dashboard locally at the URL displayed in the terminal (usually http://localhost:8501).
 
-Explore the following tabs:
+## Project Structure
+```
+Death Relevant/
+  ├─ analysis_results/            # Analysis outputs and CSV data
+  ├─ mortality_streamlit.py       # Main Streamlit dashboard
+  ├─ new_york_analysis.py         # (Example) Additional analysis module
+  ├─ requirements.txt             # Python dependencies
+  └─ README.md                    # Project documentation (this file)
+```
 
-Monthly Trends: Analyze national monthly death trends.
-Year-to-Year Comparison: Compare deaths between two selected years.
-Monthly Details: Drill down into monthly death data for a specific year.
-State Analysis: Explore state-level mortality data (1985–2004).
-Mortality Forecasting: Generate national and state-level forecasts for future mortality trends.
-Data Sources
-CDC Mortality Files: The data used in this project is sourced from publicly available CDC mortality datasets.
-Key Files
-mortality_streamlit.py: Main Streamlit app for interactive analysis and visualization.
-analysis_results/monthly_deaths.csv: National monthly mortality data.
-analysis_results/state_deaths_1985_2004.csv: State-level mortality data (optional).
-requirements.txt: List of Python dependencies.
-Example Visualizations
-Monthly Death Trends
-<img alt="Monthly Trends Example" src="https://via.placeholder.com/800x400?text=Monthly+Trends+Chart">
-Year-to-Year Comparison
-<img alt="Year Comparison Example" src="https://via.placeholder.com/800x400?text=Year-to-Year+Comparison+Chart">
-Mortality Forecasting
-<img alt="Forecast Example" src="https://via.placeholder.com/800x400?text=Mortality+Forecast+Chart">
-Future Enhancements
-Add support for more recent state-level data.
-Include additional forecasting models for comparison.
-Enhance visualizations with more customization options.
-Add demographic breakdowns (e.g., age, gender).
-Contributing
-Contributions are welcome! Please follow these steps:
+## Data Sources
+- CDC’s National Center for Health Statistics for mortality counts  
+- State-level historical data files for detailed local comparison  
 
-Fork the repository.
-Create a new branch for your feature or bug fix:
-Commit your changes and push to your fork:
-Open a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Methodology
+- Data processing includes converting 2-digit years, sorting, and cleaning  
+- SARIMAX modeling applied to monthly aggregated counts  
+- State forecasts derived by scaling the national forecast based on historical share  
 
-Contact
-For questions or feedback, please contact your-email@example.com.
+## Contributing
+Contributions or suggestions are welcome. Fork this repository and submit pull requests with any enhancements or fixes.
 
+## License
+Please review the repository for license details or contact the author for clarification.
