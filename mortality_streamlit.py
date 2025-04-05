@@ -120,17 +120,20 @@ def build_forecasting_model(data, freq='MS'):
         ts_data.set_index('date', inplace=True)
         ts_data = ts_data['count'].resample(freq).sum()
         
+        # Exclude 2020-2021 data from the training set to avoid COVID-19 spike
+        training_data = ts_data[ts_data.index.year < 2020]
+        
         # Train SARIMAX model (handles both trend and seasonality)
         # Order (p,d,q) for ARIMA and (P,D,Q,s) for seasonal component
-        model = SARIMAX(ts_data, 
-                        order=(1, 1, 1), 
-                        seasonal_order=(1, 1, 1, 12),
-                        enforce_stationarity=False,
-                        enforce_invertibility=False)
+        model = SARIMAX(training_data, 
+                       order=(1, 1, 1), 
+                       seasonal_order=(1, 1, 1, 12),
+                       enforce_stationarity=False,
+                       enforce_invertibility=False)
         
         results = model.fit(disp=False)
         
-        return results, ts_data
+        return results, training_data
     except Exception as e:
         st.error(f"Error building forecast model: {e}")
         return None, None
